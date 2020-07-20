@@ -1,0 +1,17 @@
+---
+- name: "Instalação de dependências do MinIO uploader."
+  hosts: AWS
+  become: true
+  become_user: root
+  tasks:
+#    - name: "Dependências de pacotes apt."
+#      action: apt pkg={{ item }} state=installed
+#      with_items:
+#        - python3
+#        - python3-pip
+#
+    - name: "Dependências de pacotes pip."
+      command: "pip3 install pipenv"
+
+    - name: "Inicializando o virtualenv."
+      command: "pipenv --python 3 install --system --deploy"

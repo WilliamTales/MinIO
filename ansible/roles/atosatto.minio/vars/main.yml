@@ -1,0 +1,12 @@
+---
+go_arch_map:
+  i386: '386'
+  x86_64: 'amd64'
+  aarch64: 'arm64'
+  armv7l: 'arm'
+  armv6l: 'arm6vl'
+
+# Variáveis para MinIO uploader
+#S3_URL=
+#S3_ACCESS_KEY=
+#S3_SECRET_KEY=

@@ -1,0 +1,12 @@
+# Este é o inventário de hosts.
+
+# Teste Instruct
+[Instruct]
+3.134.163.187
+
+# AWS fileserver
+[AWS]
+18.215.255.34 ansible_ssh_private_key_file=/home/ubuntu/key/pubkey.pem
+
+# [local]
+# 127.0.0.1

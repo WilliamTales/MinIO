@@ -1,0 +1,11 @@
+---
+- name: "Instalar MinIO"
+  hosts: AWS 
+  become: true
+  roles:
+    - atosatto.minio
+  vars:
+    minio_server_datadirs:
+      - "/bucketteste"
+    minio_access_key: "instructadmin"
+    minio_secret_key: "kFM3dxAFm3FmpfAy"
