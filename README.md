@@ -128,7 +128,7 @@ Loguei usando as credenciais fornecidas no playbook e criei um bucket chamado `t
 Criei o playbook de instalação das dependências do MinIO uploader.
 
 ```shell
-sudo vim miniouploaderdep.yml
+vim miniouploaderdep.yml
 ```
 
 Com as seguintes instruções:
