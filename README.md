@@ -234,6 +234,7 @@ scp -r /home/ubuntu/minio_uploader ubuntu@ENDERECO_IP:/home/ubuntu
 
 ```shell
 sudo apt install python3 python3-pip
+sudo pip3 install pipenv
 pipenv --python 3 install --system --deploy
 ```
 
